@@ -12,7 +12,7 @@ bool valid
 bool active
 
 # Time Of Week
-uint16 tow_ms         # ms
+uint32 tow_ms         # ms
 
 # Position
 float64 ecef_x        # m
