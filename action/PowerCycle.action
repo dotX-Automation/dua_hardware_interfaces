@@ -1,0 +1,16 @@
+# Power cycle operation
+#
+# July 7, 2025
+
+# GOAL
+# Power cycle operation type
+uint8 TYPE_POWEROFF = 0
+uint8 TYPE_POWERON = 1
+uint8 TYPE_REBOOT = 2
+
+uint8 type
+---
+# RESULT
+dua_common_interfaces/CommandResultStamped result
+---
+# FEEDBACK
