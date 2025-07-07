@@ -11,6 +11,7 @@ uint8 TYPE_REBOOT = 2
 uint8 type
 ---
 # RESULT
+# Operation result
 dua_common_interfaces/CommandResultStamped result
 ---
 # FEEDBACK
