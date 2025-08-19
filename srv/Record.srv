@@ -1,0 +1,19 @@
+# Record a data stream.
+#
+# August 19, 2025
+
+# REQUEST
+# Set to true to start recording, false to stop
+bool record
+
+# File path to save the recorded data (if applicable), should include extension
+string file_path
+
+# May be empty if the source is not a topic, or if this information is known or given elsewhere
+string topic_name
+
+# May be empty or be anything ranging from JSON-formatted recording options to a full GStreamer pipeline
+string options
+---
+# RESPONSE
+dua_common_interfaces/CommandResultStamped result
