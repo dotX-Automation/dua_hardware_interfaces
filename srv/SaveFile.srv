@@ -1,0 +1,10 @@
+# Save data to a file.
+#
+# October 7, 2025
+
+# REQUEST
+# Path to the file to write, relative or absolute, including extension
+string path
+---
+# RESPONSE
+dua_common_interfaces/CommandResultStamped result
