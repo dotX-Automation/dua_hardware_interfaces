@@ -11,8 +11,11 @@ uint32 sampling_rate
 # Data format (e.g. S16LE)
 string format
 
-# Amount of data per second [bit/s]
-uint32 bitrate
+# Data layout (e.g. interleaved, not-interleaved)
+string layout
 
 # Audio coding format (e.g. "WAVE", "MP3")
 string coding
+
+# Amount of data per second [bit/s]
+uint32 bitrate
